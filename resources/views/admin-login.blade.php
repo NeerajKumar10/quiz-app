@@ -12,7 +12,7 @@
              @error('user')
             <div class="text-red-500">{{$message}}</div>   
             @enderror
-        <form action="/admin-login" method="POST" class="space-y-4">
+        <form action="/admin-login" method="post" class="space-y-4">
             @csrf
             <div>
             
